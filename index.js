@@ -1,0 +1,42 @@
+gsap.from('.image-holder',{
+  opacity:0,
+  y:60,
+  duration:2,
+})
+gsap.from('.information-h1',{
+    opacity:0,
+    y:30,
+    duration:1,
+delay:1,
+})
+gsap.from('.information-text',{
+    opacity:0,
+    y:30,
+    duration:0.7,
+    delay:1.3,
+})
+gsap.from('tick-information',{
+    opacity:0,
+    y:30,
+    delay:1.5,
+})
+gsap.from('.check-info',{
+    opacity:0,
+    y:30,
+    delay:1.5,
+})
+gsap.from('.tick-box',{
+    opacity:0,
+    y:30,
+    delay:1.5,
+})
+gsap.from('.info-input',{
+    opacity:0,
+    y:30,
+    delay:1.7,
+})
+gsap.from('.nav',{
+    opacity:0,
+    y:5,
+    duration:3,
+})
